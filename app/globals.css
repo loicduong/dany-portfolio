@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #f472b6;
+  --color-bg-page: var(--bg-page);
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-glass-bg: var(--glass-bg);
+  --color-card-bg: var(--card-bg);
+  --color-border-subtle: var(--border-subtle);
+  --color-section-alt: var(--section-alt);
+  
+  --font-display: "Playfair Display", serif;
+  --font-sans: "Plus Jakarta Sans", sans-serif;
+}
+
+:root {
+  --bg-page: #fff5f7;
+  --text-main: #0f172a; /* slate-900 */
+  --text-muted: #475569; /* slate-600 */
+  --glass-bg: rgba(255, 255, 255, 0.7);
+  --card-bg: #ffffff;
+  --border-subtle: #fce7f3; /* pink-100 */
+  --section-alt: rgba(255, 255, 255, 0.5);
+}
+
+.dark {
+  --bg-page: #1a1114;
+  --text-main: #f8fafc; /* slate-50 */
+  --text-muted: #94a3b8; /* slate-400 */
+  --glass-bg: rgba(26, 17, 20, 0.8);
+  --card-bg: #2d1b22;
+  --border-subtle: #4d1d31; 
+  --section-alt: rgba(0, 0, 0, 0.2);
+}
+
+@layer base {
+  body {
+    @apply font-sans text-text-main bg-bg-page selection:bg-primary/30 transition-colors duration-300;
+  }
+  
+  .horse-pattern {
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M30 5c2.209 0 4 1.791 4 4v2h4l4 8-8 4v4h-8v-4l-8-4 4-8h4V9c0-2.209 1.791-4 4-4z' fill='%23f472b6' fill-opacity='0.05' fill-rule='evenodd'/%3E%3C/svg%3E");
+  }
+
+  .glass {
+    @apply bg-glass-bg backdrop-blur-md border-b border-border-subtle;
+  }
+}
+
+.scroll-smooth {
+  scroll-behavior: smooth;
+}

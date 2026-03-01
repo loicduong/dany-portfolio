@@ -73,8 +73,8 @@ const translations = {
     },
     hero: {
       badge: "Full-stack Developer",
-      title_first: "Lệ Nông",
-      title_last: "Thị",
+      title_first: "Lệ",
+      title_last: "Nông Thị",
       description: "Passionate software engineer specializing in backend systems and modern web technologies. Bridging technical excellence with creative problem-solving.",
       cta: "Get In Touch"
     },
@@ -148,8 +148,8 @@ const translations = {
     },
     hero: {
       badge: "Lập trình viên Full-stack",
-      title_first: "Lệ Nông",
-      title_last: "Thị",
+      title_first: "Lệ",
+      title_last: "Nông Thị",
       description: "Kỹ sư phần mềm đam mê chuyên về hệ thống backend và công nghệ web hiện đại. Kết nối sự xuất sắc về kỹ thuật với giải quyết vấn đề sáng tạo.",
       cta: "Liên hệ ngay"
     },
@@ -223,8 +223,8 @@ const translations = {
     },
     hero: {
       badge: "フルスタックエンジニア",
-      title_first: "Lệ Nông",
-      title_last: "Thị",
+      title_first: "Lệ",
+      title_last: "Nông Thị",
       description: "バックエンドシステムと現代的なウェブ技術を専門とする情熱的なソフトウェアエンジニア。技術的な卓越性と創造的な問題解決を橋渡しします。",
       cta: "お問い合わせ"
     },
@@ -361,7 +361,7 @@ const Hero = ({ lang }: { lang: string }) => {
             {t.badge}
           </span>
           <h1 className="font-display text-6xl md:text-8xl mb-6 text-text-main leading-tight">
-            {t.title_first} <span className="text-primary italic">{t.title_last}</span>
+            <span className="text-primary italic">{t.title_first}</span> {t.title_last}
           </h1>
           <p className="text-xl text-text-muted mb-8 leading-relaxed max-w-lg">
             {t.description}

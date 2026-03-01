@@ -12,11 +12,6 @@ const jakarta = Plus_Jakarta_Sans({
   variable: '--font-sans',
 });
 
-export const metadata: Metadata = {
-  title: 'Lệ Nông Thị | Full-stack Developer',
-  description: 'Portfolio of Lệ Nông Thị, a passionate software engineer specializing in backend systems and modern web technologies.',
-};
-
 export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en" className={`${playfair.variable} ${jakarta.variable} scroll-smooth`}>

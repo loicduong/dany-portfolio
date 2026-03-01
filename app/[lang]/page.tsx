@@ -657,8 +657,31 @@ export default function PortfolioPage({ params }: { params: Promise<{ lang: stri
     }
   };
 
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Lệ Nông Thị",
+    "jobTitle": "Full-stack Developer",
+    "url": `https://ais-dev-wftxky7butbtelaexnpi24-284222860959.asia-east1.run.app/${lang}`,
+    "sameAs": [
+      "https://linkedin.com/in/vyle3696",
+      "https://github.com/vyle3696"
+    ],
+    "description": translations[lang as keyof typeof translations]?.hero.description || translations.en.hero.description,
+    "knowsAbout": [
+      "Full-stack Development",
+      "Backend Development",
+      "Software Engineering",
+      "Web Technologies"
+    ]
+  };
+
   return (
     <main className="min-h-screen">
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <Navbar lang={lang} isDark={isDark} toggleDark={toggleDark} />
       <Hero lang={lang} />
       <Experience lang={lang} />

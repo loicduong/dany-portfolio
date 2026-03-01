@@ -29,7 +29,7 @@ export async function generateMetadata(
   const { lang } = await params;
   const t = seoTranslations[lang as keyof typeof seoTranslations] || seoTranslations.en;
   
-  const baseUrl = process.env.APP_URL || 'https://ais-dev-wftxky7butbtelaexnpi24-284222860959.asia-east1.run.app';
+  const baseUrl = process.env.APP_URL || 'https://nongthile.vercel.app';
 
   return {
     title: t.title,

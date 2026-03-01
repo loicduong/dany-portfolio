@@ -1,0 +1,45 @@
+# Lệ Nông Thị | Full-stack Developer Portfolio
+
+This is the portfolio of Lệ Nông Thị, a passionate software engineer specializing in backend systems and modern web technologies.
+
+## Personal Information
+- **Name**: Lệ Nông Thị
+- **Role**: Full-stack Developer
+- **Location**: Cat Lai Ward, Ho Chi Minh City
+- **Email**: mikhailcolt@gmail.com
+- **LinkedIn**: [vyle3696](https://linkedin.com/in/vyle3696)
+- **GitHub**: [vyle3696](https://github.com/vyle3696)
+
+## Professional Summary
+Passionate software engineer with extensive experience in backend systems and modern web technologies. Bridging technical excellence with creative problem-solving.
+
+## Core Skills
+- **Frontend**: Vue.js, React.js, Node.js, TypeScript, JavaScript, HTML5, CSS3, Tailwind CSS, Bootstrap.
+- **Backend**: Node.js, Laravel, PHP, RESTful API, GraphQL.
+- **Database**: SQL, MySQL, PostgreSQL, MongoDB, Redis.
+- **Infrastructure**: Docker, Git, AWS, Nginx, Linux.
+- **Specialization**: Game Development, Full-Stack Development.
+
+## Experience
+- **Teanis Technologies** (Sep 2024 - Present): Full-stack Developer.
+- **SugaGroup** (Aug 2018 - Aug 2024): Back End Developer.
+- **HORICAL CO.,LTD** (July 2017 - Dec 2017): Frontend Developer.
+
+## Education
+- **University of Information Technology** (2014 - 2018): Engineer's Degree in Software Engineering.
+
+## Project Structure
+- **Framework**: Next.js 15+ (App Router)
+- **Styling**: Tailwind CSS v4
+- **Animations**: motion/react (Framer Motion)
+- **Icons**: lucide-react
+- **Multi-language**: Supported in English (en), Vietnamese (vn), and Japanese (jp).
+- **SEO**: Implemented with dynamic metadata, sitemap, robots.txt, and JSON-LD structured data.
+
+## Key Features
+- Multi-language support with localized content.
+- Dark/Light mode theme switching.
+- Custom handwritten SVG logo.
+- Responsive design with glassmorphism effects.
+- Skill visualization with interactive modals.
+- SEO optimized with structured data and metadata.

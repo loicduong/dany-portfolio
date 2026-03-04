@@ -1,3 +1,4 @@
+import { Analytics } from '@vercel/analytics/next';
 import type {Metadata} from 'next';
 import { Playfair_Display, Plus_Jakarta_Sans } from 'next/font/google';
 import './globals.css';
@@ -17,6 +18,7 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
     <html lang="en" className={`${playfair.variable} ${jakarta.variable} scroll-smooth`}>
       <body suppressHydrationWarning className="horse-pattern min-h-screen">
         {children}
+        <Analytics />
       </body>
     </html>
   );
